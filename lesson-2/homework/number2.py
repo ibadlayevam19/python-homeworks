@@ -1,0 +1,5 @@
+a=int(input("Enter first integer: "))
+b=int(input("Second integer: "))
+c=int(input("Third one: "))
+print(f"The largest one: {max(max(a,b), c)}")
+print(f"The smallest one: {min(min(a,b),c)}")  
