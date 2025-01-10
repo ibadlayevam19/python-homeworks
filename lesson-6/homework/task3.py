@@ -33,6 +33,7 @@ for i in s:
         num.remove(i)
 # print(s)
 print(f"Total words: {total}")
+print("Top 5 most common words: ")
 # print(most_common)
 # print(words_without_dublicate)
 def most():

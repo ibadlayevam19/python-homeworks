@@ -5,4 +5,4 @@ is - 3
 file - 3
 a - 2
 this - 2
-it - 1
+test - 1
