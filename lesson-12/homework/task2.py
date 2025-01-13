@@ -1,5 +1,6 @@
 import requests
 import random
+import os
 
 
 
@@ -22,7 +23,8 @@ def get_genre_id(api_key):
        print("Invalid choice. Exiting.")
        exit()
 if __name__=='__main__':
-    api_key='350197450fe048563815fab9487eea01'
+    api_key = os.getenv("OPENWEATHER_API_KEY1")
+    
     
     id=get_genre_id(api_key)
     movies_url = f'https://api.themoviedb.org/3/discover/movie?api_key={api_key}&with_genres={id}&language=en-US'
